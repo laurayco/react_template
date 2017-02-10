@@ -1,0 +1,11 @@
+html
+  head
+    title #{title}
+    each val in styles
+      link(href=val,rel="stylesheet")
+    each val in scripts
+      script(src=val)
+    block scripts
+    block stylesheets
+  body
+    block content
