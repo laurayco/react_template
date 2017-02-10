@@ -83,3 +83,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+node_modules/
+node_modules/*
+.zip
+dist/
+dist/*
+obj/
+obj/*
+dist.zip
+*.log
