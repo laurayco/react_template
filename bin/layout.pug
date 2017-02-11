@@ -7,5 +7,7 @@ html
       script(src=val)
     block scripts
     block stylesheets
+    script(type='text/javascript').
+      window.__INITIAL_STATE__ = !{JSON.stringify(data)}
   body
     block content
