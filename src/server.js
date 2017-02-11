@@ -20,7 +20,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-
 app.use("/static",esgz(staticRoot));
 
 app.get("/",function(req,res){
